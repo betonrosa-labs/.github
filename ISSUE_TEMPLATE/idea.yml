@@ -1,0 +1,14 @@
+name: Idea
+description: A suggestion that still needs discussion
+labels: ["idea"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: The idea
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it would help
